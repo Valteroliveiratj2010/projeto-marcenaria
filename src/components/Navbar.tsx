@@ -38,7 +38,7 @@ export const Navbar = () => {
             <Hammer className="w-6 h-6 text-wood-dark" />
           </div>
           <div className="flex flex-col">
-            <span className="text-xl font-serif font-bold text-white leading-none tracking-tight">PICA-PAU</span>
+            <span className="text-xl font-serif font-bold text-white leading-none tracking-tight">PREMIO</span>
             <span className="text-[10px] text-wood-gold tracking-[0.2em] uppercase font-bold">Marcenaria</span>
           </div>
         </Link>

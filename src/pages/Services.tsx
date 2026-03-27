@@ -6,25 +6,25 @@ import { ArrowRight, CheckCircle2 } from 'lucide-react';
 const services = [
   {
     title: 'Cozinhas Planejadas',
-    image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80',
+    image: '/IMG/service-kitchen.jpg',
     desc: 'Otimização inteligente de espaço com materiais resistentes à umidade e calor. Design que une beleza e praticidade para o dia a dia.',
     benefits: ['MDF de alta densidade', 'Ferragens com amortecimento', 'Divisores organizadores', 'Iluminação em LED integrada'],
   },
   {
     title: 'Dormitórios & Closets',
-    image: 'https://images.unsplash.com/photo-1616594111705-3f513bfa4a0a?auto=format&fit=crop&w=800&q=80',
+    image: '/IMG/service-bedroom.jpg',
     desc: 'Soluções de armazenamento que maximizam cada centímetro. Closets abertos ou fechados com acabamentos sofisticados.',
     benefits: ['Portas de correr suaves', 'Cabideiros iluminados', 'Gavetas aveludadas', 'Espelhos integrados'],
   },
   {
     title: 'Home Theater & Painéis',
-    image: 'https://images.unsplash.com/photo-1593696140826-c58b021acf8b?auto=format&fit=crop&w=800&q=80',
+    image: '/IMG/service-living.jpg',
     desc: 'Integração perfeita de tecnologia e design. Painéis ripados, laqueados ou amadeirados com fiação totalmente oculta.',
     benefits: ['Gestão de cabos inteligente', 'Nicho para equipamentos', 'Acabamentos em alto brilho', 'Design contemporâneo'],
   },
   {
     title: 'Projetos Comerciais',
-    image: 'https://images.unsplash.com/photo-1593696140826-c58b021acf8b?auto=format&fit=crop&w=800&q=80',
+    image: '/IMG/service-commercial.jpg',
     desc: 'Móveis que transmitem a identidade da sua marca. Balcões de atendimento, expositores e estações de trabalho ergonômicas.',
     benefits: ['Durabilidade para alto tráfego', 'Identidade visual aplicada', 'Ergonomia garantida', 'Montagem rápida'],
   },
@@ -36,7 +36,7 @@ export const Services = () => {
       <section className="bg-wood-dark pt-40 pb-24 px-6 text-center relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1920&q=80"
+            src="/IMG/services-bg.jpg"
             className="w-full h-full object-cover"
             alt="Background"
           />

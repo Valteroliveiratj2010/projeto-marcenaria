@@ -8,7 +8,7 @@ export const Contact = () => {
       <section className="bg-wood-dark pt-40 pb-20 px-6 text-center relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1920&q=80"
+            src="/IMG/contact-bg.jpg"
             className="w-full h-full object-cover"
             alt="Background"
           />
@@ -42,8 +42,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-wood-dark mb-2">Telefone & WhatsApp</h3>
-                  <p className="text-slate-600">(75) 99999-9999</p>
-                  <p className="text-slate-600">(75) 3333-3333</p>
+                  <p className="text-slate-600">(75) 982884396</p>
                 </div>
               </div>
 
@@ -63,7 +62,7 @@ export const Contact = () => {
                 <div className="flex gap-4">
                   <a href="#" className="flex items-center gap-3 bg-slate-50 px-6 py-3 rounded-sm border border-slate-200 hover:border-wood-gold hover:text-wood-gold transition-all group">
                     <Instagram className="w-5 h-5" />
-                    <span className="font-bold text-sm">@marcenariapicapau</span>
+                    <span className="font-bold text-sm">@marcenariapremio</span>
                   </a>
                   <a href="#" className="flex items-center gap-3 bg-slate-50 px-6 py-3 rounded-sm border border-slate-200 hover:border-wood-gold hover:text-wood-gold transition-all group">
                     <MessageCircle className="w-5 h-5" />
@@ -85,7 +84,7 @@ export const Contact = () => {
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localização Marcenaria Pica-Pau"
+              title="Localização Marcenaria Premio"
             ></iframe>
           </div>
         </div>
@@ -99,10 +98,10 @@ export const Contact = () => {
             Não deixe para amanhã o ambiente que você pode planejar hoje. Entre em contato e agende uma visita técnica.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://wa.me/5575999999999" className="bg-wood-gold text-wood-dark px-10 py-4 rounded-sm font-bold hover:bg-white transition-all">
+            <a href="https://wa.me/5575982884396" className="bg-wood-gold text-wood-dark px-10 py-4 rounded-sm font-bold hover:bg-white transition-all">
               WhatsApp Agora
             </a>
-            <a href="mailto:contato@marcenariapicapau.com" className="bg-white/5 border border-white/20 px-10 py-4 rounded-sm font-bold hover:bg-white/10 transition-all">
+            <a href="mailto:contato@marcenariapremio.com" className="bg-white/5 border border-white/20 px-10 py-4 rounded-sm font-bold hover:bg-white/10 transition-all">
               Enviar E-mail
             </a>
           </div>

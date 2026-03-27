@@ -41,7 +41,7 @@ export const Quote = () => {
       <section className="bg-wood-dark pt-40 pb-20 px-6 text-center relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="https://images.unsplash.com/photo-1581428982868-e410dd047a90?auto=format&fit=crop&w=1920&q=80"
+            src="/IMG/quote-bg.jpg"
             className="w-full h-full object-cover"
             alt="Workshop Background"
           />
@@ -124,7 +124,7 @@ export const Quote = () => {
                 Prefere falar diretamente conosco? Clique no botão abaixo e inicie uma conversa agora mesmo.
               </p>
               <a
-                href="https://wa.me/5575999999999"
+                href="https://wa.me/5575982884396"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 bg-green-600 text-white py-4 rounded-sm font-bold hover:bg-green-500 transition-all"

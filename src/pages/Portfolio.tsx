@@ -5,12 +5,12 @@ import { Filter, Maximize2 } from 'lucide-react';
 const categories = ['Todos', 'Cozinhas', 'Quartos', 'Salas', 'Comercial'];
 
 const allProjects = [
-  { id: 1, title: 'Cozinha Gourmet Seabra', category: 'Cozinhas', image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80', material: 'MDF Grafite + Louro Freijó', time: '25 dias' },
-  { id: 2, title: 'Suíte Master Casal', category: 'Quartos', image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=800&q=80', material: 'MDF Branco Diamante', time: '20 dias' },
-  { id: 3, title: 'Painel Home Theater', category: 'Salas', image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80', material: 'Ripado em Carvalho', time: '15 dias' },
-  { id: 4, title: 'Recepção Clínica', category: 'Comercial', image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80', material: 'MDF Laqueado', time: '30 dias' },
-  { id: 5, title: 'Cozinha Americana', category: 'Cozinhas', image: 'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=800&q=80', material: 'MDF Cinza Sagrado', time: '22 dias' },
-  { id: 6, title: 'Closet Walk-in', category: 'Quartos', image: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80', material: 'MDF Linho', time: '18 dias' },
+  { id: 1, title: 'Cozinha Gourmet Seabra', category: 'Cozinhas', image: '/IMG/portfolio-1.jpg', material: 'MDF Grafite + Louro Freijó', time: '25 dias' },
+  { id: 2, title: 'Suíte Master Casal', category: 'Quartos', image: '/IMG/portfolio-2.jpg', material: 'MDF Branco Diamante', time: '20 dias' },
+  { id: 3, title: 'Painel Home Theater', category: 'Salas', image: '/IMG/portfolio-3.jpg', material: 'Ripado em Carvalho', time: '15 dias' },
+  { id: 4, title: 'Recepção Clínica', category: 'Comercial', image: '/IMG/portfolio-4.jpg', material: 'MDF Laqueado', time: '30 dias' },
+  { id: 5, title: 'Cozinha Americana', category: 'Cozinhas', image: '/IMG/portfolio-5.jpg', material: 'MDF Cinza Sagrado', time: '22 dias' },
+  { id: 6, title: 'Closet Walk-in', category: 'Quartos', image: '/IMG/portfolio-6.jpg', material: 'MDF Linho', time: '18 dias' },
 ];
 
 export const Portfolio = () => {
@@ -25,7 +25,7 @@ export const Portfolio = () => {
       <section className="bg-wood-dark pt-40 pb-20 px-6 text-center relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1920&q=80"
+            src="/IMG/portfolio-bg.jpg"
             className="w-full h-full object-cover"
             alt="Background"
           />

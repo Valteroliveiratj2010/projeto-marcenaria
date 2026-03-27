@@ -9,7 +9,7 @@ export const About = () => {
       <section className="bg-wood-dark pt-40 pb-24 px-6 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=1920&q=80"
+            src="/IMG/about-bg.jpg"
             className="w-full h-full object-cover"
             alt="Background"
           />
@@ -27,7 +27,7 @@ export const About = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl font-serif font-bold text-white mb-8"
           >
-            Sobre a Pica-Pau
+            Sobre a Marcenaria Premio
           </motion.h1>
         </div>
       </section>
@@ -44,7 +44,7 @@ export const About = () => {
             </div>
             <div className="space-y-6 text-slate-600 leading-relaxed">
               <p>
-                Fundada em Seabra, a Marcenaria Pica-Pau começou como um pequeno sonho familiar. Com o passar dos anos, a paixão pela madeira e o compromisso com a perfeição nos transformaram em uma referência regional.
+                Fundada em Seabra, a Marcenaria Premio começou como um pequeno sonho familiar. Com o passar dos anos, a paixão pela madeira e o compromisso com a perfeição nos transformaram em uma referência regional.
               </p>
               <p>
                 Cada projeto que sai de nossa oficina carrega consigo décadas de conhecimento técnico aliado às tendências globais de design. Não entregamos apenas móveis; entregamos soluções que otimizam espaços e elevam o padrão de vida de nossos clientes.
@@ -68,7 +68,7 @@ export const About = () => {
           <div className="relative">
             <div className="aspect-square rounded-sm overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=800&q=80"
+                src="/IMG/about-workshop.jpg"
                 className="w-full h-full object-cover"
                 alt="Oficina"
                 referrerPolicy="no-referrer"
@@ -101,7 +101,7 @@ export const About = () => {
       <section className="py-24 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold text-wood-dark">Por que escolher a Pica-Pau?</h2>
+            <h2 className="text-4xl font-serif font-bold text-wood-dark">Por que escolher a Marcenaria Premio?</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
             {[

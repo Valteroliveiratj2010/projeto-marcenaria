@@ -11,9 +11,9 @@ const services = [
 ];
 
 const projects = [
-  { id: 1, title: 'Cozinha Gourmet Esmeralda', category: 'Cozinha', image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80' },
-  { id: 2, title: 'Suíte Master Minimalista', category: 'Quarto', image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=800&q=80' },
-  { id: 3, title: 'Escritório Executivo', category: 'Comercial', image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80' },
+  { id: 1, title: 'Cozinha Gourmet Esmeralda', category: 'Cozinha', image: '/IMG/project-kitchen.jpg' },
+  { id: 2, title: 'Suíte Master Minimalista', category: 'Quarto', image: '/IMG/project-bedroom.jpg' },
+  { id: 3, title: 'Escritório Executivo', category: 'Comercial', image: '/IMG/project-office.jpg' },
 ];
 
 export const Home = () => {
@@ -23,7 +23,7 @@ export const Home = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden bg-wood-dark">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1581428982868-e410dd047a90?auto=format&fit=crop&w=1920&q=80"
+            src="/IMG/hero.jpg"
             className="w-full h-full object-cover opacity-30 scale-105 animate-slow-zoom"
             alt="Marcenaria Real"
             referrerPolicy="no-referrer"
@@ -83,7 +83,7 @@ export const Home = () => {
           >
             <div className="aspect-[4/5] rounded-sm overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=800&q=80"
+                src="/IMG/about.jpg"
                 className="w-full h-full object-cover"
                 alt="Trabalho de Marcenaria"
                 referrerPolicy="no-referrer"
@@ -102,7 +102,7 @@ export const Home = () => {
           >
             <span className="text-wood-gold font-bold text-sm tracking-[0.3em] uppercase mb-4 block">Nossa História</span>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-wood-dark mb-8 leading-tight">
-              A Marcenaria Pica-Pau nasceu para transformar madeira em arte.
+              A Marcenaria Premio nasceu para transformar madeira em arte.
             </h2>
             <p className="text-slate-600 mb-6 leading-relaxed text-lg">
               Com reconhecimento como a **Melhor Marcenaria de Seabra**, entregamos qualidade, compromisso e excelência em cada detalhe. Nossa missão é criar móveis que não apenas preencham espaços, mas que contem histórias e facilitem a vida de nossos clientes.
@@ -207,7 +207,7 @@ export const Home = () => {
                   ))}
                 </div>
                 <p className="text-slate-300 italic mb-8 leading-relaxed">
-                  "O trabalho da Pica-Pau superou todas as minhas expectativas. A atenção aos detalhes e o cumprimento do prazo foram impecáveis. Minha cozinha ficou exatamente como eu sonhei!"
+                  "O trabalho da Marcenaria Premio superou todas as minhas expectativas. A atenção aos detalhes e o cumprimento do prazo foram impecáveis. Minha cozinha ficou exatamente como eu sonhei!"
                 </p>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-wood-gold/20 flex items-center justify-center font-bold text-wood-gold">
@@ -234,7 +234,7 @@ export const Home = () => {
             Solicite agora um orçamento sem compromisso e descubra como podemos dar vida ao seu projeto.
           </p>
           <a
-            href="https://wa.me/5575999999999"
+            href="https://wa.me/5575982884396"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-wood-dark text-white px-10 py-5 rounded-sm font-bold text-lg hover:bg-white hover:text-wood-dark transition-all shadow-xl"

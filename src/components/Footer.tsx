@@ -12,7 +12,7 @@ export const Footer = () => {
               <Hammer className="w-6 h-6 text-wood-dark" />
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-serif font-bold text-white leading-none tracking-tight">PICA-PAU</span>
+              <span className="text-xl font-serif font-bold text-white leading-none tracking-tight">PREMIO</span>
               <span className="text-[10px] text-wood-gold tracking-[0.2em] uppercase font-bold">Marcenaria</span>
             </div>
           </Link>
@@ -60,18 +60,18 @@ export const Footer = () => {
             </li>
             <li className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-wood-gold shrink-0" />
-              <span>(75) 99999-9999</span>
+              <span>(75) 982884396</span>
             </li>
             <li className="flex items-center gap-3">
               <MessageCircle className="w-5 h-5 text-wood-gold shrink-0" />
-              <span>WhatsApp: (75) 99999-9999</span>
+              <span>WhatsApp: (75) 982884396</span>
             </li>
           </ul>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-white/5 flex flex-col md:row justify-between items-center gap-4 text-xs text-slate-500">
-        <p>© 2024 Marcenaria Pica-Pau. Todos os direitos reservados.</p>
+        <p>© 2024 Marcenaria Premio. Todos os direitos reservados.</p>
         <p>Desenvolvido com excelência.</p>
       </div>
     </footer>
