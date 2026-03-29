@@ -10,7 +10,7 @@ const allProjects = [
   { id: 2, title: 'Suíte Master Casal', category: 'Quartos', image: img('dormitorio-closets.png'), material: 'MDF Branco Diamante', time: '20 dias' },
   { id: 3, title: 'Painel Home Theater', category: 'Salas', image: img('paineis.png'), material: 'Ripado em Carvalho', time: '15 dias' },
   { id: 4, title: 'Recepção Clínica', category: 'Comercial', image: img('comerciais.png'), material: 'MDF Laqueado', time: '30 dias' },
-  { id: 5, title: 'Cozinha Americana', category: 'Cozinhas', image: img('cozinha.png'), material: 'MDF Cinza Sagrado', time: '22 dias' },
+  { id: 5, title: 'Cozinha Americana', category: 'Cozinhas', image: img('cozinha-americana.png'), material: 'MDF Cinza Sagrado', time: '22 dias' },
   { id: 6, title: 'Closet Walk-in', category: 'Quartos', image: img('dormitorio-closets.png'), material: 'MDF Linho', time: '18 dias' },
 ];
 

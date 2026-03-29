@@ -85,7 +85,7 @@ export const Home = () => {
           >
             <div className="aspect-[4/5] rounded-sm overflow-hidden shadow-2xl">
               <img
-                src={img('sobre.png')}
+                src={img('premio-marcenaria.png')}
                 className="w-full h-full object-cover"
                 alt="Trabalho de Marcenaria"
                 referrerPolicy="no-referrer"
