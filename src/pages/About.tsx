@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Award, CheckCircle2, Users, History, Target } from 'lucide-react';
+import { img } from '../assets/images';
 
 export const About = () => {
   return (
@@ -9,7 +10,7 @@ export const About = () => {
       <section className="bg-wood-dark pt-40 pb-24 px-6 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="/IMG/about-bg.jpg"
+            src={img('sobre.png')}
             className="w-full h-full object-cover"
             alt="Background"
           />
@@ -68,7 +69,7 @@ export const About = () => {
           <div className="relative">
             <div className="aspect-square rounded-sm overflow-hidden shadow-2xl">
               <img
-                src="/IMG/about-workshop.jpg"
+                src={img('sobre.png')}
                 className="w-full h-full object-cover"
                 alt="Oficina"
                 referrerPolicy="no-referrer"

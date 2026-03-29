@@ -2,29 +2,30 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { img } from '../assets/images';
 
 const services = [
   {
     title: 'Cozinhas Planejadas',
-    image: '/IMG/service-kitchen.jpg',
+    image: img('cozinha.png'),
     desc: 'Otimização inteligente de espaço com materiais resistentes à umidade e calor. Design que une beleza e praticidade para o dia a dia.',
     benefits: ['MDF de alta densidade', 'Ferragens com amortecimento', 'Divisores organizadores', 'Iluminação em LED integrada'],
   },
   {
     title: 'Dormitórios & Closets',
-    image: '/IMG/service-bedroom.jpg',
+    image: img('dormitorio-closets.png'),
     desc: 'Soluções de armazenamento que maximizam cada centímetro. Closets abertos ou fechados com acabamentos sofisticados.',
     benefits: ['Portas de correr suaves', 'Cabideiros iluminados', 'Gavetas aveludadas', 'Espelhos integrados'],
   },
   {
     title: 'Home Theater & Painéis',
-    image: '/IMG/service-living.jpg',
+    image: img('paineis.png'),
     desc: 'Integração perfeita de tecnologia e design. Painéis ripados, laqueados ou amadeirados com fiação totalmente oculta.',
     benefits: ['Gestão de cabos inteligente', 'Nicho para equipamentos', 'Acabamentos em alto brilho', 'Design contemporâneo'],
   },
   {
     title: 'Projetos Comerciais',
-    image: '/IMG/service-commercial.jpg',
+    image: img('comerciais.png'),
     desc: 'Móveis que transmitem a identidade da sua marca. Balcões de atendimento, expositores e estações de trabalho ergonômicas.',
     benefits: ['Durabilidade para alto tráfego', 'Identidade visual aplicada', 'Ergonomia garantida', 'Montagem rápida'],
   },
@@ -36,7 +37,7 @@ export const Services = () => {
       <section className="bg-wood-dark pt-40 pb-24 px-6 text-center relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="/IMG/services-bg.jpg"
+            src={img('servicos.png')}
             className="w-full h-full object-cover"
             alt="Background"
           />

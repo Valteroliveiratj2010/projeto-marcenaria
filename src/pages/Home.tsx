@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { ArrowRight, ChevronRight, Star, Quote, MessageCircle, ChefHat, Bed, Monitor, Building2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { ProjectCard } from '../components/ProjectCard';
+import { img } from '../assets/images';
 
 const services = [
   { title: 'Cozinhas Planejadas', icon: ChefHat, desc: 'Funcionalidade e design para o coração da sua casa.' },
@@ -11,9 +13,9 @@ const services = [
 ];
 
 const projects = [
-  { id: 1, title: 'Cozinha Gourmet Esmeralda', category: 'Cozinha', image: '/IMG/project-kitchen.jpg' },
-  { id: 2, title: 'Suíte Master Minimalista', category: 'Quarto', image: '/IMG/project-bedroom.jpg' },
-  { id: 3, title: 'Escritório Executivo', category: 'Comercial', image: '/IMG/project-office.jpg' },
+  { id: 1, title: 'Cozinha Gourmet Esmeralda', category: 'Cozinha', image: img('cozinha.png') },
+  { id: 2, title: 'Suíte Master Minimalista', category: 'Quarto', image: img('dormitorio-closets.png') },
+  { id: 3, title: 'Escritório Executivo', category: 'Comercial', image: img('comerciais.png') },
 ];
 
 export const Home = () => {
@@ -23,7 +25,7 @@ export const Home = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden bg-wood-dark">
         <div className="absolute inset-0 z-0">
           <img
-            src="/IMG/hero.jpg"
+            src={img('hero-section.png')}
             className="w-full h-full object-cover opacity-30 scale-105 animate-slow-zoom"
             alt="Marcenaria Real"
             referrerPolicy="no-referrer"
@@ -83,7 +85,7 @@ export const Home = () => {
           >
             <div className="aspect-[4/5] rounded-sm overflow-hidden shadow-2xl">
               <img
-                src="/IMG/about.jpg"
+                src={img('sobre.png')}
                 className="w-full h-full object-cover"
                 alt="Trabalho de Marcenaria"
                 referrerPolicy="no-referrer"
@@ -165,25 +167,14 @@ export const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {projects.map((project, idx) => (
-              <motion.div
+              <ProjectCard
                 key={project.id}
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: idx * 0.1 }}
-                className="group relative aspect-square overflow-hidden rounded-sm cursor-pointer"
-              >
-                <img
-                  src={project.image}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                  alt={project.title}
-                  referrerPolicy="no-referrer"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-wood-dark/90 via-wood-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
-                  <span className="text-wood-gold text-xs font-bold uppercase tracking-widest mb-2">{project.category}</span>
-                  <h4 className="text-white text-xl font-serif font-bold">{project.title}</h4>
-                </div>
-              </motion.div>
+                id={project.id}
+                title={project.title}
+                category={project.category}
+                image={project.image}
+                variant="simple"
+              />
             ))}
           </div>
         </div>

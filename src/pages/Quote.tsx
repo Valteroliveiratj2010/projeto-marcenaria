@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { Send, MessageCircle, Upload, CheckCircle } from 'lucide-react';
+import { img } from '../assets/images';
 
 export const Quote = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -41,7 +42,7 @@ export const Quote = () => {
       <section className="bg-wood-dark pt-40 pb-20 px-6 text-center relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="/IMG/quote-bg.jpg"
+            src={img('orcamento.png')}
             className="w-full h-full object-cover"
             alt="Workshop Background"
           />

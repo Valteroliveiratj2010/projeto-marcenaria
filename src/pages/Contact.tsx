@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { MapPin, Phone, MessageCircle, Instagram, Mail, Clock } from 'lucide-react';
+import { img } from '../assets/images';
 
 export const Contact = () => {
   return (
@@ -8,7 +9,7 @@ export const Contact = () => {
       <section className="bg-wood-dark pt-40 pb-20 px-6 text-center relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="/IMG/contact-bg.jpg"
+            src={img('sobre.png')}
             className="w-full h-full object-cover"
             alt="Background"
           />
